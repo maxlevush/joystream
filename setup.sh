@@ -34,6 +34,9 @@ rustup default nightly-2021-03-24
 
 rustup component add rustfmt clippy
 
+# Install subkey
+cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.1 --locked
+
 # Volta nodejs, npm, yarn tools manager
 curl https://get.volta.sh | bash
 
